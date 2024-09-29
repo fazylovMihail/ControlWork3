@@ -72,6 +72,7 @@ body {
 
 .gallery__item {
     max-width: 330px;
+    position: relative;
 }
 
 .image {
@@ -98,4 +99,39 @@ body {
     font-size: 40px;
     color: white;
     text-align: center;
+}
+.dop-btn{
+    /* border: 1px solid #fff; */
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 99;
+
+}
+.dop-img:hover{
+    fill: rgba(255, 255, 255, 0.87);
+}
+.dop-btn-conteiner{
+    position: absolute;
+    left: 213.9px;
+    top: 403px;
+    display: flex;
+    gap: 15px;
+}
+.like{
+    background-image: url('images/Union.svg');
+    width: 47.11px;
+    height: 41.1px;
+}
+.like:hover{
+    background-image: url('images/Like_active.svg');
+}
+.izbrannoe{
+    background-image: url('images/Rectangle\ 11.svg');
+    width: 38px;
+    height: 40px;
+}
+.izbrannoe:hover{
+    background-image: url('images/Choosen_active.svg');
 }
